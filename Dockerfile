@@ -4,11 +4,11 @@ MAINTAINER Russell Trow
 # Basic build-time metadata as defined at http://label-schema.org
 ARG VCS_REF
 ARG BUILD_DATE
-LABEL com.dockleafdigital.vcs-url="https://github.com/russelltrow/label-schema.git" \
-      com.dockleafdigital.vcs-ref=$VCS_REF \
-      com.dockleafdigital.vcs-type="Git" \
-      com.dockleafdigital.build-date=$BUILD_DATE \
-      com.dockleafdigital.docker.dockerfile="/Dockerfile" \
-      com.dockleafdigital.url="https://www.dockleafdigital.com/" \
-      com.dockleafdigital.name="Dockleaf Label Schema" \
-      com.dockleafdigital.license="MIT"
+LABEL org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.docker.dockerfile="/Dockerfile" \
+      org.label-schema.name="e.g. Example project name" \
+      org.label-schema.license="e.g. MIT" \
+      org.label-schema.url="e.g. https://www.example.com/" \
+      org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-type="e.g. Git" \
+      org.label-schema.vcs-url="e.g. https://github.com/microscaling/microscaling.git"
