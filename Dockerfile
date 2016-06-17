@@ -1,14 +1,14 @@
 FROM alpine:3.4
-MAINTAINER Russell Trow
+MAINTAINER Ross Fairbanks
 
 # Basic build-time metadata as defined at http://label-schema.org
 ARG VCS_REF
 ARG BUILD_DATE
-LABEL com.dockleafdigital.build-date=$BUILD_DATE \
-      com.dockleafdigital.docker.dockerfile="/Dockerfile" \
-      com.dockleafdigital.name="e.g. Example project name" \
-      com.dockleafdigital.license="e.g. MIT" \
-      com.dockleafdigital.url="e.g. https://www.example.com/" \
-      com.dockleafdigital.vcs-ref=$VCS_REF \
-      com.dockleafdigital.vcs-type="e.g. Git" \
-      com.dockleafdigital.vcs-url="e.g. https://github.com/microscaling/microscaling.git"
+LABEL com.rossfairbanks.build-date=$BUILD_DATE \
+      com.rossfairbanks.docker.dockerfile="/Dockerfile" \
+      com.rossfairbanks.name="Example Metadata" \
+      com.rossfairbanks.license="MIT" \
+      com.rossfairbanks.url="https://rossfairbanks.com/" \
+      com.rossfairbanks.vcs-ref=$VCS_REF \
+      com.rossfairbanks.vcs-type="Git" \
+      com.rossfairbanks.vcs-url="https://github.com/rossf7/label-schema.git"
