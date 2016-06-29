@@ -6,7 +6,7 @@ ARG VCS_REF
 ARG BUILD_DATE
 LABEL com.rossfairbanks.build-date=$BUILD_DATE \
       com.rossfairbanks.docker.dockerfile="/Dockerfile" \
-      com.rossfairbanks.name="Example Metadata" \
+      com.rossfairbanks.name="Webhook Test" \
       com.rossfairbanks.license="MIT" \
       com.rossfairbanks.url="https://rossfairbanks.com/" \
       com.rossfairbanks.vcs-ref=$VCS_REF \
